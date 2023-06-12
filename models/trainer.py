@@ -426,6 +426,8 @@ class Trainer:
         return train_loss, val_loss, train_mae, val_mae, train_r2, val_r2
 
     def predict(self):
+        """ Integrates the predict.py file into the Trainer class. Now we can run the test set immediately after
+            calling Train.train(). """
         # Load test data from pickle file
         test_data = self.test_segments
 

@@ -1,3 +1,7 @@
+""" Rohan Sanda 2023 """
+
+""" Wrote a test script to load a model and perform predictions on test data.
+    I have since incorporated this script into the Trainer class so its obselete."""
 import torch
 import numpy as np
 import pickle
