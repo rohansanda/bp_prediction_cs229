@@ -34,7 +34,7 @@ To experiment with using featurized versus raw signal data in our baseline model
 #### Running the Model ####
 Set parameters in `config.py`. Then run `run.py` --> `python3 run.py`. Raw data can be processed using the `processor.ipynb` script. Raw data was obtained from the VitalDB dataset [1]. Please read our final report for more details. 
 
-##### Citations #####
+#### Citations ####
 [1] HC. Lee, Y. Park, and S.B. Yoon. Vitaldb, a high-fidelity multi-parameter vital signs database in surgical patients. Nature Scientific Data, 9(279), 2022.
 
 [2] Seungman Yang, Jangjay Sohn, Saram Lee, Joonnyong Lee, and Hee Chan Kim. Estimation and validation of arterial blood pressure using photoplethysmogram morphology features in conjunction with pulse arrival time in large open databases. IEEE Journal of Biomedical and Health Informatics, 25(4):1018–1030, 2021.
