@@ -2,9 +2,34 @@
 ### CS 229 Final Project ###
 #### By Rohan Sanda and Edward Kim ####
 
-To run our models, go to the /models folder and run run.py. You will need to specify a data path and provide processed data in a pickle file format as our files were to large to upload and store on Github. 
+### File Architecture
+Construct the following architecture by creating and adding data to the `data` folder (processed using the `processor.ipynb` notebook). Update paths in `config.py`.
+```
+models
+  ├── config.py
+  ├── data.py
+  ├── model.py
+  ├── predict.py
+  ├── run.py
+  ├── trainer.py
+  ├── autoencoder
+      ├── linear_autoencoder.py
+      └── lstm_autoencoder.py
+  └── feature_extraction
+      └── feat_extract.ipynb
+processing
+    ├── processor.ipynb
+    └── post_processing_analysis.ipynb
+data
+    ├── segments.pickle
+    └── bps.pickle
+```
 
-/models contains the autoencoder, feature extraction, and neural network code.
-/processing contains the processing code and some data analysis code
-/results contains the pickle files from and weights from different experiments
+### Running the Model
+Set parameters in `config.py`. Then run `run.py` --> `python3 run.py`. Raw data can be processed using the `processor.ipynb` script. Raw data was obtained from the VitalDB dataset [1]. Please read our final report for more details. 
+
+[1] HC. Lee, Y. Park, and S.B. Yoon. Vitaldb, a high-fidelity multi-parameter vital signs database in surgical patients. Nature Scientific Data, 9(279), 2022.
+
+ 
+
 
