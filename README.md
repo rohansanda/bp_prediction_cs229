@@ -1,6 +1,6 @@
 # PPG-based BP Prediction ##
 ### CS 229 Final Project ###
-#### By Rohan Sanda and Edward Kim ####
+#### By Rohan Sanda (rsanda@stanford.edu) and Edward Kim (edkim36@stanford.edu) ####
 
 #### File Architecture ####
 Construct the following architecture by creating and adding data to the `data` folder (processed using the `processor.ipynb` notebook). Update paths in `config.py`.
